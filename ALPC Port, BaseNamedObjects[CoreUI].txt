@@ -1,0 +1,100 @@
+ALPC Port, \BaseNamedObjects\[CoreUI]-PID(588)-TID(432) f88aac07-ac41-483f-8ea9-6c8ea9da2e3c, 0x438
+ALPC Port, \RPC Control\OLE05772ECBC05DD20C5A620BD492B3, 0x6d4
+Desktop, \Default, 0xe4
+Directory, \KnownDlls, 0x30
+Directory, \Sessions\1\BaseNamedObjects, 0xbc
+Event, \Sessions\1\BaseNamedObjects\msdt3835285323, 0x240
+Event, \KernelObjects\MaximumCommitCondition, 0x254
+File, C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.16299.125_none_15cbcf8893620c09, 0x64
+File, \Device\CNG, 0x78
+File, C:\Windows\System32\en-US\msdt.exe.mui, 0xec
+File, \Device\DeviceApi, 0xf4
+File, C:\Users\NGOCDA~1\AppData\Local\Temp\msdt\_A0DD7985-36CC-4AC9-95EB-A811513AB934_\inuse, 0x220
+File, C:\Windows\Registration\R00000000000c.clb, 0x25c
+File, C:\Windows\System32\en-US\KernelBase.dll.mui, 0x27c
+File, C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.16299.125_none_15cbcf8893620c09, 0x2fc
+File, C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.16299.125_none_15cbcf8893620c09, 0x344
+File, C:\Windows\Fonts\StaticCache.dat, 0x354
+File, C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.16299.125_en-us_2bd7186dc0083df6, 0x360
+File, C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.16299.125_en-us_2bd7186dc0083df6\comctl32.dll.mui, 0x364
+File, C:\Windows\System32\en-US\oleaccrc.dll.mui, 0x36c
+File, C:\Windows\System32\en-US\imageres.dll.mui, 0x374
+File, \Device\KsecDD, 0x4d0
+File, C:\Windows\System32\en-US\crypt32.dll.mui, 0x634
+File, C:\Windows\System32\en-US\sdiageng.dll.mui, 0x66c
+File, C:\Windows\System32, 0x6d8
+Key, HKLM\SYSTEM\ControlSet001\Control\Session Manager, 0x68
+Key, HKLM\SYSTEM\ControlSet001\Control\Nls\Sorting\Versions, 0x6c
+Key, HKLM, 0x74
+Key, HKLM, 0x7c
+Key, HKLM\SOFTWARE\Microsoft\Ole, 0x80
+Key, HKCU\Software\Classes\Local Settings, 0x8c
+Key, HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options, 0xd4
+Key, HKCU, 0x1fc
+Key, HKCU\Software\Classes, 0x24c
+Key, HKCU\Software\Classes, 0x26c
+Key, HKCU\Software\Classes, 0x270
+Key, HKLM\SYSTEM\ControlSet001\Control\Nls\Sorting\Ids, 0x28c
+Key, HKLM\SYSTEM\ControlSet001\Control\Nls\Locale, 0x348
+Key, HKLM\SYSTEM\ControlSet001\Control\Nls\Locale\Alternate Sorts, 0x34c
+Key, HKLM\SYSTEM\ControlSet001\Control\Nls\Language Groups, 0x350
+Key, HKCU\Software\Classes, 0x370
+Key, HKCU\Software\Classes\Local Settings\Software\Microsoft, 0x468
+Key, HKLM\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CertDllCreateCertificateChainEngine\Config, 0x46c
+Key, HKLM\SYSTEM\ControlSet001\Services\crypt32, 0x474
+Key, HKU, 0x498
+Key, HKLM\SOFTWARE\Microsoft\SystemCertificates\CA, 0x49c
+Key, HKCU\Software\Microsoft\SystemCertificates\CA, 0x4a0
+Key, HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\CA, 0x4a4
+Key, HKCU, 0x4a8
+Key, HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed, 0x4ac
+Key, HKCU\Software\Microsoft\SystemCertificates\Disallowed, 0x4b0
+Key, HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed, 0x4b4
+Key, HKCU, 0x4b8
+Key, HKLM\SOFTWARE\Microsoft\SystemCertificates\ROOT, 0x4bc
+Key, HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Root, 0x4c4
+Key, HKCU\Software\Microsoft\SystemCertificates\Root, 0x4dc
+Key, HKLM\SOFTWARE\Microsoft\SystemCertificates\AuthRoot, 0x4e0
+Key, HKLM\SOFTWARE\Microsoft\SystemCertificates\TrustedPeople, 0x4e4
+Key, HKLM\SOFTWARE\Microsoft\SystemCertificates\SmartCardRoot, 0x4e8
+Key, HKCU\Software\Microsoft\SystemCertificates\TrustedPeople, 0x4ec
+Key, HKCU\Software\Microsoft\SystemCertificates\SmartCardRoot, 0x4f0
+Key, HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\TrustedPeople, 0x4f4
+Key, HKCU, 0x4f8
+Key, HKLM\SOFTWARE\Microsoft\SystemCertificates\trust, 0x4fc
+Key, HKCU\Software\Microsoft\SystemCertificates\trust, 0x500
+Key, HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Trust, 0x504
+Key, HKCU, 0x508
+Key, HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates, 0x544
+Key, HKCU\Software\Policies\Microsoft\SystemCertificates, 0x590
+Key, HKCR\PackagedCom, 0x6f0
+Key, HKLM\SOFTWARE\Microsoft\WindowsRuntime, 0x7dc
+Key, HKLM\SOFTWARE\Microsoft\WindowsRuntime\ActivatableClassId, 0x7e4
+Mutant, \Sessions\1\BaseNamedObjects\SM0:588:304:WilStaging_02, 0x124
+Mutant, \Sessions\1\BaseNamedObjects\MSCTF.Asm.MutexDefault1, 0x3a8
+Mutant, \Sessions\1\BaseNamedObjects\SM0:588:120:WilError_01, 0x6f8
+Section, \BaseNamedObjects\__ComCatalogCache__, 0x248
+Section, \BaseNamedObjects\__ComCatalogCache__, 0x258
+Section, C:\Windows\Registration\R00000000000c.clb, 0x260
+Section, \Windows\Theme3346066564, 0x330
+Section, \Sessions\1\Windows\Theme1631120101, 0x33c
+Section, C:\Windows\Fonts\StaticCache.dat, 0x358
+Section, \Sessions\1\BaseNamedObjects\windows_shell_global_counters, 0x70c
+Semaphore, \Sessions\1\BaseNamedObjects\SM0:588:304:WilStaging_02_p0, 0x128
+Semaphore, \Sessions\1\BaseNamedObjects\SM0:588:304:WilStaging_02_p0h, 0x12c
+Semaphore, \Sessions\1\BaseNamedObjects\SM0:588:120:WilError_01_p0, 0x704
+Semaphore, \Sessions\1\BaseNamedObjects\SM0:588:120:WilError_01_p0h, 0x708
+Thread, msdt.exe (588): 432, 0x214
+Thread, msdt.exe (588): 584, 0x294
+Thread, msdt.exe (588): 580, 0x2f8
+Thread, msdt.exe (588): 732, 0x304
+Thread, msdt.exe (588): 432, 0x3c0
+Thread, msdt.exe (588): 2360, 0x410
+Thread, msdt.exe (588): 432, 0x42c
+Thread, msdt.exe (588): 432, 0x434
+Thread, msdt.exe (588): 580, 0x644
+Thread, msdt.exe (588): 4708, 0x684
+Thread, msdt.exe (588): 580, 0x6e4
+Thread, msdt.exe (588): 836, 0x6fc
+WindowStation, \Sessions\1\Windows\WindowStations\WinSta0, 0xe0
+WindowStation, \Sessions\1\Windows\WindowStations\WinSta0, 0xe8
