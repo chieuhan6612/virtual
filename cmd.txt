@@ -1,0 +1,71 @@
+#include<windows.h>
+#include<stdio.h>
+#include<algorithm>
+#include<string>
+int main(int argc, char* argv[])
+{
+	if (argc < 3)
+	{
+		printf("Error.\n");
+		return 0;
+	}
+
+	DWORD offsetTarget = std::stoul(argv[2]);
+
+	auto hdFile = CreateFileA(argv[1], GENERIC_READ, FILE_SHARE_READ , 0, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, 0);
+	do
+	{
+		if (0 == hdFile || INVALID_HANDLE_VALUE == hdFile)
+		{
+			printf("Cannot create handle file\n");
+			break;
+		}
+		LARGE_INTEGER offset = { 0 };
+		offset.QuadPart = offsetTarget;
+		auto fileSize = GetFileSize(hdFile, 0);
+		if (0 == fileSize)
+		{
+			printf("Cannot get file size\n");
+			break;
+		}
+
+		auto check = SetFilePointerEx(hdFile, offset,0, FILE_BEGIN);
+		if (0 == check)
+		{
+			printf("Cannot set file pointer\n");
+			break;
+		}
+
+		while (true)
+		{
+			
+			BYTE data[4] = { 0 }; // int a;
+			check = ReadFile(hdFile, data, 4, 0, 0);
+			//check = ReadFile(hdFile, &a, 4, 0, 0);
+			if (0 == check)
+			{
+				printf("Cannot read file\n");
+				break;
+			}
+
+			WORD newOffset = data[2] << 8 | data[3];
+			printf("OFFSET: 0x%x\n", newOffset);
+			if (0 == newOffset || offset.QuadPart + newOffset > fileSize - 3)
+			{
+				break;
+			}
+			offset.QuadPart += newOffset;
+			check = SetFilePointerEx(hdFile, offset, 0, FILE_BEGIN);
+			if (0 == check)
+			{
+				break;
+			}
+
+		}
+	} while (false);
+
+	if (0 != hdFile && INVALID_HANDLE_VALUE != hdFile)
+	{
+		CloseHandle(hdFile);
+	}
+}
